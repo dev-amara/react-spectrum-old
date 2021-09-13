@@ -1,0 +1,58 @@
+{
+  "name": "@djaouli/react-spectrum",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "scripts": {
+    "changeset": "changeset",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "build": "rollup -c",
+    "build-storybook": "build-storybook",
+    "release": "npm run build && changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-amara/react-spectrum.git"
+  },
+  "keywords": [],
+  "author": "Amara Bamba <amara.dianney@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-amara/react-spectrum/issues"
+  },
+  "homepage": "https://github.com/dev-amara/react-spectrum#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@changesets/cli": "^2.17.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@storybook/addon-actions": "^6.3.8",
+    "@storybook/addon-essentials": "^6.3.8",
+    "@storybook/addon-links": "^6.3.8",
+    "@storybook/react": "^6.3.8",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/jest": "^27.0.1",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "@types/webpack": "^4.41.30",
+    "babel-loader": "^8.2.2",
+    "jest": "^27.1.1",
+    "rollup": "^2.56.3",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
