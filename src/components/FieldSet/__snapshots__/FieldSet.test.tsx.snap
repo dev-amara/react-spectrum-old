@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldSet /> rend correctement 1`] = `
+<form
+  action="#"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <div
+    className="MuiInputBase-root WithStyles(ForwardRef(InputBase))-root-17"
+    onClick={[Function]}
+  >
+    <input
+      className="MuiInputBase-input WithStyles(ForwardRef(InputBase))-input-18 WithStyles(ForwardRef(InputBase))-input-19"
+      name="email"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Entrez votre email"
+      type="text"
+    />
+  </div>
+</form>
+`;
