@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Statuschip /> rend correctement 1`] = `
+<div
+  className="MuiChip-root WithStyles(ForwardRef(Chip))-root-1 WithStyles(ForwardRef(Chip))-root-2 MuiChip-outlined MuiChip-sizeSmall"
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label MuiChip-labelSmall"
+  >
+    DONE
+  </span>
+</div>
+`;
