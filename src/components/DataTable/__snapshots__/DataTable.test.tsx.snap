@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DataTable /> rend correctement 1`] = `
+<div
+  className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation0 MuiPaper-rounded"
+  style={
+    Object {
+      "height": "38rem",
+    }
+  }
+/>
+`;
