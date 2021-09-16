@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumb /> rend correctement 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+>
+  <div
+    className="MuiPaper-root makeStyles-breadcrumbPaper-1 MuiPaper-elevation0 MuiPaper-rounded"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h3"
+    >
+      Comptes connectés
+    </h3>
+    <nav
+      aria-label="breadcrumb"
+      className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+    >
+      <ol
+        className="MuiBreadcrumbs-ol"
+      >
+        <li
+          className="MuiBreadcrumbs-li"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-colorInherit"
+          >
+            Comptes connectés
+          </p>
+        </li>
+        <li
+          aria-hidden={true}
+          className="MuiBreadcrumbs-separator"
+        >
+          /
+        </li>
+        <li
+          className="MuiBreadcrumbs-li"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 MuiTypography-colorSecondary"
+          >
+            Liste des comptes connectés
+          </p>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+`;
